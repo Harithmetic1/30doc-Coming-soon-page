@@ -108,11 +108,15 @@ color: rgba(255, 255, 255, 0.63);
 }
 .rectangle{
     position: absolute;
+    width: 130px;
+    height: 34px;
     top: 180px;
     left: 900px;
 }
 .rectangle2{
     position: absolute;
+    width: 130px;
+    height: 34px;
     top: 588px;
     left: 221px;
 }
@@ -367,9 +371,9 @@ color: rgba(255, 255, 255, 0.84);
     }
     #circle3{
         position: absolute;
-        width: 97px;
-        height: 97px;
-        left: 275px;
+        width: 107px;
+        height: 107px;
+        left: 255px;
         top: 527px;
     }
     #code{
@@ -422,6 +426,8 @@ color: rgba(255, 255, 255, 0.84);
     }
     .rectangle2{
         position: absolute;
+        width: 130px;
+        height: 34px;
         top: 550px;
         left: 21px;
     }
@@ -455,7 +461,7 @@ color: rgba(255, 255, 255, 0.84);
     }
     header #contact{
         position: absolute;
-        width: 80px;
+        width: 70px;
         height: 17px;
         left: 285px;
         top: 25px;
@@ -516,7 +522,7 @@ color: rgba(255, 255, 255, 0.84);
     }
     .input p{
         position: absolute;
-        width: 227px;
+        width: 257px;
         height: 12px;
         left: 37px;
         top: 441px;
@@ -530,10 +536,10 @@ color: rgba(255, 255, 255, 0.84);
     }
     footer p{
         position: absolute;
-        width: 275px;
+        width: 87px;
         height: 13px;
         left: 157px;
-        top: 627px;
+        top: 95%;
         font-family: Montserrat;
         font-style: normal;
         font-weight: 600;
@@ -541,5 +547,92 @@ color: rgba(255, 255, 255, 0.84);
         line-height: 10px;
         letter-spacing: -0.095em;
         color: rgba(255, 255, 255, 0.79);
+    }
+}
+@media (max-width: 320px){
+    #circle1{
+        left: 120px;
+    }
+    #circle3{
+        width: 40px;
+        height: 40px;
+        left: 280px;
+        top: 507px;
+    }
+    #code{
+        left: 200px;
+    }
+    .rectangle{
+        left: 180px;
+    }
+    .rectangle2{
+        top: 535px;
+        width: 70px;
+        height: 34px;
+    }
+    header #abt{
+        font-size: 8px;
+        left: 200px;
+    }
+    header #contact{
+        position: absolute;
+        width: 60px;
+        height: 17px;
+        left: 245px;
+        top: 25px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 8px;
+        line-height: 12px;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+    .coming p{
+        position: absolute;
+        width: 250px;
+        height: 39px;
+        left: 42px;
+        top: 298px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 44px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+    .coming h5{
+        position: absolute;
+        width: 167px;
+        height: 42px;
+        left: 114px;
+        top: 350px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 20px;
+        letter-spacing: 0.015em;
+        color: #FFFFFF;
+    }
+    div input{
+        width: 180px;
+        top: 450px;
+        left: 27px;
+    }
+    .input button{
+        width: 75px;
+        top: 450px;
+        left: 229px;
+        font-size: 8px;
+    }
+    .input p{
+        top: 428px;
+        left: 27px;
+    }
+    footer p{
+        top: 96%;
+        left: 140px;
     }
 }
